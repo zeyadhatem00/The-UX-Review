@@ -1,0 +1,494 @@
+@media screen and (max-width: 600px) {
+  ul {
+    display: none;
+  }
+  .navbar {
+    width: 95%;
+    padding: 10px;
+  }
+  .start {
+    width: 50%;
+  }
+  .start h3 {
+    font-size: 20px;
+  }
+  .end button {
+    margin: 0;
+    padding: 5px 7px;
+    font-size: 13px;
+  }
+
+  ::after {
+    display: none;
+  }
+  ::before {
+    display: none;
+  }
+  .hero-content {
+    width: 100%;
+
+    margin-top: 120px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 18px;
+  }
+  .blu {
+    display: none;
+  }
+  .hero {
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .paragraph {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+  }
+  .paragraph p {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .hero-image {
+    width: 95%;
+    margin: auto;
+    transform: rotate(0);
+    height: 260px;
+    position: relative;
+  }
+  .hero-image:hover {
+    transform: translate(-2px, -2px);
+  }
+  .hero-image span {
+    padding: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    right: -16px;
+  }
+
+  .spans span {
+    font-size: 55px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    padding: 10px;
+    transform: translate(0);
+    width: 45%;
+    box-shadow: 4px 4px black;
+  }
+  .btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 48px;
+  }
+  .btn button {
+    font-size: 13px;
+  }
+  .svg-1,
+  .svg-2 {
+    width: 15%;
+  }
+
+  .container-other {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 18px;
+  }
+  .latest-left {
+    width: 100%;
+  }
+  .latestspan-1 span {
+    width: 100%;
+    font-size: 35px;
+    margin-left: 4px;
+  }
+
+  .latestspan-2 {
+    display: none;
+  }
+  .LatestArticles-rest-cards {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px 32px 20px;
+  }
+  .image {
+    width: 140px;
+    margin-bottom: 15px;
+    height: 110px;
+  }
+
+  .innercard {
+    width: 100%;
+  }
+  .card-h4 h4 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .card-h4 {
+    width: 100%;
+  }
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .LatestArticles-head {
+    margin-bottom: 30px;
+  }
+  .card-paragarph p {
+    font-size: 16px;
+  }
+  .latest-right {
+    width: 100%;
+  }
+  .latest-btn {
+    width: 85%;
+    margin: auto;
+  }
+  .latest-btn button {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #ffffff;
+    width: 85%;
+    box-shadow: 6px 4px black;
+    background-color: #000;
+    border: 0px;
+  }
+  .latest-btn svg {
+    position: relative;
+    top: 0;
+  }
+  .upper {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .bottom {
+    width: 100%;
+  }
+
+  .first-span {
+    font-size: 35px;
+  }
+
+  .second-span {
+    font-size: 35px;
+  }
+
+  .third-span {
+    font-size: 35px;
+  }
+
+  .first h5 {
+    font-size: 16px;
+  }
+
+  .third h5 {
+    font-size: 16px;
+  }
+  .second h5 {
+    font-size: 16px;
+  }
+  .LatestArticles {
+    padding-top: 60px;
+  }
+
+  .title {
+    z-index: 2;
+    margin-bottom: 50px;
+  }
+  .title h3 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  .title p {
+    font-size: 15px;
+  }
+  .authors {
+    padding-top: 50px;
+  }
+  .author-empty {
+    width: 100px;
+    height: 100px;
+  }
+  .author-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container-author {
+    padding: 0 18px;
+    width: 100%;
+  }
+
+  .author-card-1 {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .back {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+  }
+
+  .author-card-1 h4 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .p-2 {
+    font-size: 14px;
+  }
+  .p-1 {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .author-photo {
+    width: 30%;
+    margin-bottom: 16px;
+  }
+
+  .inside-right {
+    width: 100%;
+    padding-top: 0;
+  }
+  .inside-left {
+    width: 100%;
+    padding: 30px 25px;
+  }
+
+  .inside {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .inside-right h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .rebellion {
+    padding-top: 50px;
+  }
+  .inside-icon {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .inside-parag p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .inside-parag {
+    padding: 15px;
+    width: 100%;
+  }
+  .inside-icon span {
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .true {
+    margin-right: 12px;
+    background-color: #fb2d37;
+    border: #000 2px solid;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .true svg {
+    margin: 0;
+    width: 17.5px;
+    height: 17.5px;
+  }
+
+  .discord {
+    margin-right: 12px;
+    background-color: #2b7fff;
+    border: #000 2px solid;
+    width: 48px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .discord svg {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+  }
+
+  .star {
+    margin-right: 12px;
+    background-color: #ad46ff;
+    border: #000 2px solid;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .star svg {
+    margin: 0;
+    width: 22.5px;
+    height: 20px;
+  }
+
+  .pen {
+    margin-right: 12px;
+    background-color: #01c951;
+    border: #000 2px solid;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inside-btn {
+    width: 85%;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-left: 8px;
+  }
+
+  .inside-btn button {
+    width: 85%;
+    font-size: 16px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 6px 4px black;
+  }
+
+  .inside-btn svg {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 1px;
+  }
+
+  .inside-left h5 {
+    font-size: 26px;
+  }
+
+  .rebels {
+    width: 100%;
+  }
+
+  .block {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .rebel-avatar {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  .rebel-content span {
+    font-size: 13px;
+    line-height: normal;
+  }
+  .rebel-content p {
+    font-size: 12px;
+  }
+  .rebel-bottom {
+    display: flex;
+    align-items: center;
+  }
+
+  .foot-up {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+
+  .foot-right {
+    width: 100%;
+  }
+
+  .foot-end {
+    width: 100%;
+  }
+  .fotter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .foot-right p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .foot-right {
+    margin-bottom: 20px;
+  }
+
+  .foot-icon {
+    margin-bottom: 24px;
+  }
+
+  .foot-icon div {
+    width: 55px;
+    height: 55px;
+  }
+
+  .foot-icon span {
+    font-size: 25px;
+  }
+  .foot-mid div a {
+    font-size: 16px;
+  }
+
+  .foot-mid h3 {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .foot-mid {
+    margin-bottom: 48px;
+  }
+
+  .foot-left {
+    width: 100%;
+  }
+
+  .foot-left h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .foot-left p {
+    font-size: 16px;
+  }
+  .foot-end {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .foot-end p {
+    font-size: 14px;
+  }
+
+  .test {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .test a {
+    font-size: 12px;
+  }
+}
