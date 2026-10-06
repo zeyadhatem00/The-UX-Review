@@ -27,7 +27,7 @@ A single-page editorial landing page for **The UX Review Blog**, presented as a 
 There is no package manager or dependency installation step. Use a static file server so relative assets and the remote font load consistently:
 
 ```bash
-git clone --branch main --depth 1 https://github.com/zeyadhatem00/The-UX-Review.git
+git clone --branch main --depth 1 https://github.com/zeyadhatem00/the-ux-review.git
 cd The-UX-Review
 python3 -m http.server 8000
 ```
